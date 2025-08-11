@@ -52,4 +52,4 @@ SELECT column_name, data_type
 FROM information_schema.columns 
 WHERE table_name = 'vectorstore' AND table_schema = 'public';
 ```
-The column `embedding` should be of type `vector`.
+The column `embedding` should be of type `USER-DEFINED` or `vector`.
