@@ -46,7 +46,7 @@ alembic upgrade head
 
 4.  Verify that tables have been successfully created
 
-5. In your favortie SQL editor, run the following query :
+5. In your favorite SQL editor, run the following query :
 ```sql
 SELECT column_name, data_type 
 FROM information_schema.columns 
